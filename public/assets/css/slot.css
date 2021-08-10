@@ -1,0 +1,15 @@
+.slot .card {
+    width: 180px;
+    height: unset;
+    margin: 0;
+}
+@media only screen and (max-width: 534px) {
+    .slot .card {
+        width: 100px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .slot .card {
+        width: 85px;
+    }
+}

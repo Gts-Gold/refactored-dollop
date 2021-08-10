@@ -1,0 +1,25 @@
+{
+  "name": "with-next-seo",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "docker:build": "docker build -t chunwarayut/gts168:latest .",
+    "docker:push": "docker push chunwarayut/gts168:latest",
+    "docker:b:p": "npm run docker:build && npm run docker:push"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta1",
+    "next": "latest",
+    "next-seo": "latest",
+    "react": "^16.7.0",
+    "react-bootstrap": "^1.4.3",
+    "react-dom": "^16.7.0",
+    "sass": "^1.32.4",
+    "scss": "^0.2.4",
+    "scss-loader": "0.0.1",
+    "swiper": "^6.4.5"
+  },
+  "license": "MIT"
+}
