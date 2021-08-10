@@ -42,6 +42,19 @@ export default function MyApp({ Component, pageProps }) {
       <script src="assets/js/TweenMax.js"></script>
       <script src="assets/js/mousemoveparallax.js"></script>
       <script src="assets/js/main.js"></script>
+      <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=UA-204484351-1"
+      />
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `window.dataLayer = window.dataLayer || [];
+							function gtag(){dataLayer.push(arguments);}
+							gtag('js', new Date());
+							gtag('config', 'UA-204484351-1');
+          				`
+        }}
+      />
     </>
   );
 }
