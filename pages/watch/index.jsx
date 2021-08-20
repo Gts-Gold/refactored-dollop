@@ -6,9 +6,9 @@ import ShootFishDetail from "./ShootFishDetail";
 import GameSheetfish from "./GameSheetfish";
 import SlotDetail from "./SlotDetail";
 import GameSheetspin from "./GameSheetspin";
-import Mask from "./Watch";
+import Watch from "./Watch";
 
-export default function MaskPage() {
+export default function WatchPage() {
   return (
     <div className="bg-image">
       <NextSeoPage />
@@ -29,7 +29,7 @@ export default function MaskPage() {
         <div className="bg-image slot">
           <SlotDetail />
           <GameSheetspin />
-          <Mask />
+          <Watch />
         </div>
       </div>
     </div>
